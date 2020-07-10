@@ -1,0 +1,28 @@
+footer{
+    background: $background-color;
+    color: white;
+    min-height: 10vh;
+    padding: 0% 5%;
+    @include flex( flex-start, center, row);
+    h4{
+        flex:2 1 40rem;
+        font-weight: 400;
+    }
+    ul{
+        @include flex( space-around, center, row);
+        flex: 1 1 40rem;
+        .git-hub:hover{
+            fill:#FFFF00;
+        }
+        .linkedin:hover{
+            fill: #0e76a8;
+        }
+        .youtube:hover{
+            fill:#c4302b;
+        }
+        .instagram:hover{
+            fill:#b700ff;
+        }
+    }
+   
+}

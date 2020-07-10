@@ -1,0 +1,24 @@
+
+.projects{
+    width: 90%;
+    margin:auto;
+    min-height: 90vh;
+    @include flex(space-between, center,row);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 4rem;
+    h2{
+        margin: 5rem;
+        
+    }
+    
+}
+
+.itravel, .elena-joy, .omni, {
+    flex: 1 1 40rem;
+    
+}
